@@ -30,9 +30,11 @@
     // parse input date
     const {t, event, op, d} = JSON.parse(data);
     // init heartbeat
-    op === 10 && heartbeat(d);
+    if (op === 10) {
+      heartbeat(d);
+      return;
+    };
     // emmit events
-    bot.emit(t, d);
     console.log(t);
   })
 
