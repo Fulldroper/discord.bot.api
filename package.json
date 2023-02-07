@@ -1,0 +1,35 @@
+{
+  "name": "discord.api",
+  "version": "1.0.0",
+  "description": "package for fast discord bot",
+  "main": "./src/run.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "nodemon --exec npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fulldroper/discord.api.git"
+  },
+  "keywords": [
+    "discord",
+    "api",
+    "bot"
+  ],
+  "author": "full_droper <full_droper@pm.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fulldroper/discord.api/issues"
+  },
+  "homepage": "https://github.com/Fulldroper/discord.api#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "ws": "^8.12.0"
+  }
+}
